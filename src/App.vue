@@ -23,6 +23,7 @@ export default {
 </script>
 <style lang="scss">
 .hkzEld{
+  margin-left: 0vw !important;
   transition: opacity 0.1s ease-in-out 0s;
     text-align: center;
     position: fixed;
@@ -106,7 +107,7 @@ export default {
 }
 
 *{
-  margin: 0 !important;
+  // margin: 0 !important;
  
 }
 body{
