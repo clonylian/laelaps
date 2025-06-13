@@ -1,47 +1,37 @@
 <template>
-  <!-- <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/> -->
-
   <router-view />
-
-
-  
 </template>
 <script>
-
-import HelloWorld from '@/components/HelloWorld.vue'
+import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+  },
+};
 </script>
 <style lang="scss">
-.hkzEld{
+.hkzEld {
   margin-left: 0vw !important;
   transition: opacity 0.1s ease-in-out 0s;
-    text-align: center;
-    position: fixed;
-    width: 100vw;
-    height: 100vh !important;
-    top: 0px !important;
-    left: 0% !important;
-    z-index: 2;
-    will-change: opacity;
-    background-color: rgba(0, 0, 0, 0.4);
-    opacity: 1 !important;
-    visibility: visible;
-    pointer-events: auto;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh !important;
+  top: 0px !important;
+  left: 0% !important;
+  z-index: 2;
+  will-change: opacity;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 1 !important;
+  visibility: visible;
+  pointer-events: auto;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
 .doneshow {
   display: block !important;
@@ -106,11 +96,10 @@ export default {
   }
 }
 
-*{
+* {
   // margin: 0 !important;
- 
 }
-body{
+body {
   background-color: rgb(204, 182, 145);
 }
 // #app {
